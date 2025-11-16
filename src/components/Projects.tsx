@@ -3,8 +3,7 @@ const Projects = () => {
     {
       title: "Lannie",
       description: "Mijn eigen bedrijfsplatform gebouwd met moderne webtechnologieën voor optimale gebruikerservaring.",
-      image:
-        "https://readdy.ai/api/search-image?query=modern%20business%20platform%20interface%20with%20clean%20design%20professional%20dashboard%20layout%20minimal%20white%20background%20contemporary%20web%20application&width=400&height=250&seq=project1&orientation=landscape",
+      image: "/lannie.webp",
       technologies: ["React", "TypeScript", "Flowbite", "Tailwindcss"],
       liveDemo: "https://www.lannie.be",
       github: "https://github.com/MilanMareels/Lannie",
@@ -12,8 +11,7 @@ const Projects = () => {
     {
       title: "Garden Guru",
       description: "Een volledige applicatie waarmee gebruikers eenvoudig planten kunnen toevoegen aan hun persoonlijke digitale tuin.",
-      image:
-        "https://readdy.ai/api/search-image?query=modern%20e-commerce%20website%20interface%20shopping%20cart%20product%20catalog%20clean%20minimal%20design%20professional%20white%20background%20contemporary%20layout&width=400&height=250&seq=project2&orientation=landscape",
+      image: "/gardenguru.webp",
       technologies: ["React", "TypeScript", "Node.js", "Material ui", "Tailwindcss"],
       liveDemo: "https://www.gardenguru.guru",
       github: "https://github.com/GardenGuru2324?tab=repositories",
@@ -21,8 +19,7 @@ const Projects = () => {
     {
       title: "Clocky",
       description: "Een heel simpele applicatie waarmee studenten hun gewerkte uren eenvoudig kunnen inklokken en beheren.",
-      image:
-        "https://readdy.ai/api/search-image?query=task%20management%20application%20interface%20project%20dashboard%20kanban%20board%20clean%20modern%20design%20minimal%20white%20background%20professional%20layout&width=400&height=250&seq=project3&orientation=landscape",
+      image: "/clocky.webp",
       technologies: ["Angular", "MongoDB", "Node.js", "Express"],
       liveDemo: "https://www.clocky.be",
       github: "https://github.com/MilanMareels/Clocky-Frontend",
@@ -40,7 +37,7 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="h-48 overflow-hidden">
+              <div className="h-72 overflow-hidden">
                 <img src={project.image} alt={project.title} className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="p-6">

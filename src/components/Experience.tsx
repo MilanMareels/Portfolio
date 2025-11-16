@@ -41,32 +41,32 @@ const Experience = () => {
         </div>
 
         <div className="relative">
-          <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-blue-200"></div>
+          <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-blue-200 hidden md:block"></div>
 
           <div className="space-y-12">
             {timelineItems.map((item, index) => (
-              <div key={index} className="flex items-center justify-between">
+              <div key={index} className="md:flex md:items-center md:justify-between">
                 {item.align === "left" ? (
                   <>
-                    <div className="w-5/12 text-right pr-8">
+                    <div className="w-full md:w-5/12 text-left md:text-right md:pr-8">
                       <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                         <h3 className="text-xl font-bold text-gray-900 mb-2">{item.title}</h3>
                         <p className="text-blue-600 font-medium mb-3">{item.period}</p>
                         <p className="text-gray-600">{item.description}</p>
                       </div>
                     </div>
-                    <div className="w-2/12 flex justify-center">
+                    <div className="hidden md:w-2/12 md:flex md:justify-center">
                       <div className="w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg relative z-10"></div>
                     </div>
-                    <div className="w-5/12"></div>
+                    <div className="hidden md:block md:w-5/12"></div>
                   </>
                 ) : (
                   <>
-                    <div className="w-5/12"></div>
-                    <div className="w-2/12 flex justify-center">
+                    <div className="hidden md:block md:w-5/12"></div>
+                    <div className="hidden md:w-2/12 md:flex md:justify-center">
                       <div className="w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg relative z-10"></div>
                     </div>
-                    <div className="w-5/12 pl-8">
+                    <div className="w-full md:w-5/12 md:pl-8">
                       <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                         <h3 className="text-xl font-bold text-gray-900 mb-2">{item.title}</h3>
                         <p className="text-blue-600 font-medium mb-3">{item.period}</p>
