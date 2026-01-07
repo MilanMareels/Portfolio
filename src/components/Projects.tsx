@@ -12,7 +12,7 @@ const Projects = () => {
       title: "Garden Guru",
       description: "Een volledige applicatie waarmee gebruikers eenvoudig planten kunnen toevoegen aan hun persoonlijke digitale tuin.",
       image: "/gardenguru.webp",
-      technologies: ["React", "TypeScript", "Node.js", "Material ui", "Tailwindcss"],
+      technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Material ui", "Tailwindcss"],
       liveDemo: "https://gardenguru.vercel.app",
       github: "https://github.com/GardenGuru2324?tab=repositories",
     },
