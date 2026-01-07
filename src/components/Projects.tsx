@@ -13,7 +13,7 @@ const Projects = () => {
       description: "Een volledige applicatie waarmee gebruikers eenvoudig planten kunnen toevoegen aan hun persoonlijke digitale tuin.",
       image: "/gardenguru.webp",
       technologies: ["React", "TypeScript", "Node.js", "Material ui", "Tailwindcss"],
-      liveDemo: "https://www.gardenguru.guru",
+      liveDemo: "https://gardenguru.vercel.app",
       github: "https://github.com/GardenGuru2324?tab=repositories",
     },
     {
