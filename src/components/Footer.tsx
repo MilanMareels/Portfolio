@@ -31,25 +31,14 @@ const Footer = () => {
             <a href="https://www.lannie.be" className="text-blue-400 hover:text-blue-300 font-medium cursor-pointer">
               www.lannie.be
             </a>
-            <p className="text-gray-400 mt-2">Innovatieve softwareoplossingen voor moderne bedrijven</p>
+            <p className="text-gray-400 mt-2">Innovatieve websites voor moderne bedrijven</p>
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-center items-center">
           <a href="http://lannie.be" target="blank">
             <p className="text-gray-400 text-sm">© {new Date().getFullYear()} Lannie. Ontworpen en ontwikkeld door Lannie</p>
           </a>
-          <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
-              <i className="fab fa-linkedin-in text-xl"></i>
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
-              <i className="fab fa-github text-xl"></i>
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
-              <i className="fab fa-twitter text-xl"></i>
-            </a>
-          </div>
         </div>
       </div>
     </footer>
