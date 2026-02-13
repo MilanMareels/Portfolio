@@ -32,6 +32,14 @@ const Projects = () => {
       liveDemo: "https://www.apgaming.be",
       github: "https://github.com/MilanMareels/ap-gaming-hub",
     },
+    {
+      title: "Blog Milan Mareels",
+      description: "Een persoonlijk blogplatform gewijd aan het delen van inzichten, opinies en mijn passie voor IT.",
+      image: "/blog.webp",
+      technologies: ["Next.js", "Supabase", "Tailwindcss"],
+      liveDemo: "https://blog.milanmareels.be",
+      github: "https://github.com/MilanMareels/blog-milan-mareels",
+    },
   ];
 
   return (
