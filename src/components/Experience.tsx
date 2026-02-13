@@ -1,6 +1,12 @@
 const Experience = () => {
   const timelineItems = [
     {
+      title: "Lead Software Developer & Architect - AP Gaming Community",
+      period: "2025 - Heden",
+      description: "Als Lead Software Developer en Architect ben ik verantwoordelijk voor de realisatie van een schaalbare full-stack webapplicatie voor de AP Gaming Community.",
+      align: "right",
+    },
+    {
       title: "Oprichting Lannie",
       period: "2025 - Heden",
       description: "Opgericht eigen softwarebedrijf gespecialiseerd in webontwikkeling en digitale oplossingen voor bedrijven.",

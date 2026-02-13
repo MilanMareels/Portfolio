@@ -24,6 +24,14 @@ const Projects = () => {
       liveDemo: "https://www.clocky.be",
       github: "https://github.com/MilanMareels/Clocky-Frontend",
     },
+    {
+      title: "AP Gaming Hub",
+      description: "Een full-stack webapplicatie waarmee studenten plekken kunnen reserveren en informatie kunnen vinden over de AP Gaming Hub.",
+      image: "/ap-gaming.webp",
+      technologies: ["Next.js", "Firebase", "Tailwindcss"],
+      liveDemo: "https://www.apgaming.be",
+      github: "https://github.com/MilanMareels/ap-gaming-hub",
+    },
   ];
 
   return (

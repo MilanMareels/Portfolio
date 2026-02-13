@@ -18,7 +18,7 @@ const Hero = () => {
               <a href="#projects">
                 <button className="bg-blue-600 text-white px-8 py-4 rounded-button font-semibold hover:bg-blue-700 transition-colors cursor-pointer whitespace-nowrap">Bekijk Projecten</button>
               </a>
-              <a href="/CV Milan Mareels.pdf" download>
+              <a href="/CV - Milan Mareels.pdf" download>
                 <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-button font-semibold hover:border-blue-600 hover:text-blue-600 transition-colors cursor-pointer whitespace-nowrap">
                   Download CV
                 </button>

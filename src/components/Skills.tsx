@@ -3,6 +3,9 @@ const Skills = () => {
     { name: "TypeScript", percentage: 90 },
     { name: "JavaScript", percentage: 85 },
     { name: "React", percentage: 80 },
+    { name: "Next.js", percentage: 80 },
+    { name: "React Native", percentage: 65 },
+    { name: "Kotlin", percentage: 60 },
     { name: "Angular", percentage: 80 },
     { name: "Node.js", percentage: 80 },
     { name: "C#", percentage: 80 },
@@ -18,7 +21,7 @@ const Skills = () => {
     {
       icon: "fa fa-laptop",
       title: "Frontend Development",
-      description: "React, Angular, TypeScript",
+      description: "Next.js ,React, Angular, TypeScript",
     },
     {
       icon: "fa fa-server",
