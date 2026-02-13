@@ -17,25 +17,15 @@ function App() {
         <Hero />
       </FadeInWhenVisible>
 
-      <FadeInWhenVisible>
-        <About />
-      </FadeInWhenVisible>
+      <About />
 
-      <FadeInWhenVisible>
-        <Skills />
-      </FadeInWhenVisible>
+      <Skills />
 
-      <FadeInWhenVisible>
-        <Projects />
-      </FadeInWhenVisible>
+      <Projects />
 
-      <FadeInWhenVisible>
-        <Experience />
-      </FadeInWhenVisible>
+      <Experience />
 
-      <FadeInWhenVisible>
-        <Contact />
-      </FadeInWhenVisible>
+      <Contact />
 
       <Footer />
     </div>
