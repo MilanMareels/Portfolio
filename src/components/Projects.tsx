@@ -69,10 +69,10 @@ const Projects = () => {
                 </div>
 
                 <div className="flex space-x-4">
-                  <a href={project.liveDemo} target="blank" className="text-blue-600 hover:text-blue-800 font-medium cursor-pointer">
+                  <a href={project.liveDemo} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-medium cursor-pointer">
                     <i className="fa fa-external-link-alt mr-2"></i>Live Demo
                   </a>
-                  <a href={project.github} target="blank" className="text-gray-600 hover:text-gray-800 font-medium cursor-pointer">
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 font-medium cursor-pointer">
                     <i className="fa fa-github mr-2"></i>GitHub
                   </a>
                 </div>

@@ -94,7 +94,7 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center space-x-4">
                   <i className="fa fa-globe text-blue-600 text-xl w-6"></i>
-                  <a href="https://www.lannie.be" target="blank" className="text-blue-600 hover:text-blue-800 cursor-pointer">
+                  <a href="https://www.lannie.be" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 cursor-pointer">
                     www.lannie.be
                   </a>
                 </div>
@@ -106,14 +106,16 @@ const Contact = () => {
               <div className="flex space-x-4">
                 <a
                   href="https://www.linkedin.com/in/milan-mareels-58b472265"
-                  target="blank"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors cursor-pointer"
                 >
                   <i className="fa fa-linkedin"></i>
                 </a>
                 <a
                   href="https://github.com/MilanMareels"
-                  target="blank"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-12 h-12 bg-gray-800 text-white rounded-full flex items-center justify-center hover:bg-gray-900 transition-colors cursor-pointer"
                 >
                   <i className="fa fa-github"></i>

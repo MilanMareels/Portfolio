@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-center items-center">
-          <a href="http://lannie.be" target="blank">
+          <a href="http://lannie.be" target="_blank" rel="noopener noreferrer">
             <p className="text-gray-400 text-sm">© {new Date().getFullYear()} Lannie. Ontworpen en ontwikkeld door Lannie</p>
           </a>
         </div>
