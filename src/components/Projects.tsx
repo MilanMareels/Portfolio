@@ -28,7 +28,7 @@ const Projects = () => {
       title: "AP Gaming Hub",
       description: "Een full-stack webapplicatie waarmee studenten plekken kunnen reserveren en informatie kunnen vinden over de AP Gaming Hub.",
       image: "/ap-gaming.webp",
-      technologies: ["Next.js", "Firebase", "Tailwindcss"],
+      technologies: ["Next.js", "NestJS", "Prisma", "PostgreSQL", " Tailwindcss"],
       liveDemo: "https://www.apgaming.be",
       github: "https://github.com/MilanMareels/ap-gaming-hub",
     },
