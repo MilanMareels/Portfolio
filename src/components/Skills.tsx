@@ -1,47 +1,38 @@
 const Skills = () => {
   const technicalSkills = [
-    { name: "TypeScript", percentage: 90 },
-    { name: "JavaScript", percentage: 85 },
-    { name: "React", percentage: 80 },
-    { name: "Next.js", percentage: 80 },
-    { name: "React Native", percentage: 65 },
-    { name: "Kotlin", percentage: 60 },
-    { name: "Angular", percentage: 80 },
-    { name: "Node.js", percentage: 80 },
-    { name: "C#", percentage: 80 },
-    { name: "Java", percentage: 65 },
-    { name: "MongoDB", percentage: 85 },
-    { name: "DynamoDB", percentage: 75 },
-    { name: "SQL", percentage: 75 },
-    { name: "Jest", percentage: 85 },
-    { name: "Playwright", percentage: 85 },
+    { name: ".NET", percentage: 95 },
+    { name: "SQL Server / PostgreSQL", percentage: 90 },
+    { name: "Frontend Frameworks", percentage: 85 },
+    { name: "Testing", percentage: 85 },
+    { name: "NoSQL Databases", percentage: 75 },
+    { name: "Mobile Development", percentage: 60 },
   ];
 
   const expertiseAreas = [
     {
-      icon: "fa fa-laptop",
-      title: "Frontend Development",
-      description: "Next.js ,React, Angular, TypeScript",
-    },
-    {
       icon: "fa fa-server",
       title: "Backend Development",
-      description: "Node.js, C#, Java",
+      description: ".NET, Java, REST APIs, backend architecture",
+    },
+    {
+      icon: "fa fa-laptop",
+      title: "Frontend Development",
+      description: "Blazor, React, Next.js, Angular, TypeScript",
     },
     {
       icon: "fa fa-database",
-      title: "Database Management",
-      description: "SQL, MongoDB, DynamoDB",
+      title: "Database Development",
+      description: "SQL Server, PostgreSQL, MongoDB, DynamoDB",
+    },
+    {
+      icon: "fa fa-code",
+      title: "Test Automation",
+      description: "Playwright, Jest",
     },
     {
       icon: "fa fa-mobile",
       title: "Mobile Development",
       description: "React Native, Kotlin",
-    },
-    {
-      icon: "fa fa-code",
-      title: "Test Automation",
-      description: "Jest, Playwright",
     },
   ];
 
@@ -49,27 +40,29 @@ const Skills = () => {
     <section id="skills" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Vaardigheden</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">Een uitgebreide set van technische competenties opgebouwd door studie en praktijkervaring.</p>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Technologieën & Expertise</h2>
 
-          <p className="text-sm text-gray-500 max-w-2xl mx-auto mt-4">
-            *De weergegeven percentages zijn geen skill-levels, maar tonen aan hoeveel interesse ik momenteel heb in deze technologieën. Ik blijf continu bijleren en sta altijd open om nieuwe talen en
-            frameworks te ontdekken.*
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">Mijn technische focus ligt voornamelijk op .NET en SQL.</p>
+
+          <p className="text-sm text-gray-500 max-w-2xl mx-auto mt-4 leading-relaxed">
+            *De weergegeven percentages tonen vooral mijn huidige focus en interessegebieden binnen softwareontwikkeling. Ze zijn niet bedoeld als
+            exacte skill-levels, maar geven weer waar ik het meest mee werk en me verder in wil verdiepen.*
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Technische Vaardigheden</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">Technische Focus</h3>
             <div className="space-y-6">
               {technicalSkills.map((skill, index) => (
                 <div key={index} className="space-y-2">
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center gap-4">
                     <span className="text-gray-700 font-medium">{skill.name}</span>
-                    <span className="text-gray-500 text-sm">{skill.percentage}%</span>
+                    <span className="text-gray-500 text-sm whitespace-nowrap">{skill.percentage}%</span>
                   </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div className="bg-blue-600 h-2 rounded-full transition-all duration-1000" style={{ width: `${skill.percentage}%` }}></div>
+
+                  <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
+                    <div className="bg-blue-600 h-2 rounded-full transition-all duration-1000" style={{ width: `${skill.percentage}%` }} />
                   </div>
                 </div>
               ))}
@@ -77,13 +70,13 @@ const Skills = () => {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Expertise Gebieden</h3>
-            <div className="grid grid-cols-2 gap-6">
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">Expertisegebieden</h3>
+            <div className="grid sm:grid-cols-2 gap-6">
               {expertiseAreas.map((area, index) => (
-                <div key={index} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <i className={`${area.icon} text-3xl text-blue-600 mb-4`}></i>
+                <div key={index} className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300">
+                  <i className={`${area.icon} text-3xl text-blue-600 mb-4`} />
                   <h4 className="font-semibold text-gray-900 mb-2">{area.title}</h4>
-                  <p className="text-gray-600 text-sm">{area.description}</p>
+                  <p className="text-gray-600 text-sm leading-relaxed">{area.description}</p>
                 </div>
               ))}
             </div>
