@@ -3,7 +3,7 @@ services:
     build:
       context: .
       args:
-        - VITE_CONTACT_FORM_KEY=${VITE_CONTACT_FORM_KEY}
+        - VITE_CONTACT_KEY=${VITE_CONTACT_KEY}
     container_name: website-milan-mareels-portfolio
     restart: unless-stopped
     ports:
