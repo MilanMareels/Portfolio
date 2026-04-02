@@ -1,0 +1,10 @@
+services:
+  react-website:
+    build:
+      context: .
+      args:
+        - VITE_CONTACT_FORM_KEY=${VITE_CONTACT_FORM_KEY}
+    container_name: website-milan-mareels-portfolio
+    restart: unless-stopped
+    ports:
+      - "3002:80"
