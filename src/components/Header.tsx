@@ -25,6 +25,9 @@ const Header = () => {
             <a href="#experience" className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">
               Ervaring
             </a>
+            <a href="#publicaties" className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">
+              Publicaties
+            </a>
             <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">
               Contact
             </a>
@@ -52,6 +55,9 @@ const Header = () => {
             </a>
             <a href="#experience" className="block text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">
               Ervaring
+            </a>
+            <a href="#publicaties" className="block text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">
+              Publicaties
             </a>
             <a href="#contact" className="block text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">
               Contact

@@ -3,7 +3,8 @@ const Experience = () => {
     {
       title: "Lead Software Developer & Tester - AP Gaming Community",
       period: "2025 - Heden",
-      description: "Als Lead Software Developer en Architect ben ik verantwoordelijk voor de realisatie van een schaalbare full-stack webapplicatie voor de AP Gaming Community.",
+      description:
+        "Als Lead Software Developer en Tester ben ik verantwoordelijk voor de realisatie van een schaalbare full-stack webapplicatie voor de AP Gaming Community.",
       align: "right",
     },
     {
@@ -27,7 +28,7 @@ const Experience = () => {
     {
       title: "Webdesign HTML5 en CSS3",
       period: "2021 - 2022",
-      description: "Behaald certificaat webdesign met focus op moderne frontend-technieken, responsive design en UX-principes.",
+      description: "Behaald diploma webdesign met focus op moderne frontend-technieken, responsive design en UX-principes.",
       align: "right",
     },
     {
