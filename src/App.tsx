@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import Publications from "./components/Publications";
 import Skills from "./components/Skills";
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
       <Skills />
 
       <Projects />
+
+      <Publications />
 
       <Experience />
 

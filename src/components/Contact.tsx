@@ -54,7 +54,6 @@ const Contact = () => {
         });
       }
     } catch (error) {
-      // Toon algemeen foutbericht (bijv. netwerkfout)
       console.error("Submission Error:", error);
       Swal.close();
       Swal.fire({
@@ -72,7 +71,9 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Contact</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">Graag bespreek ik met u hoe ik waarde kan toevoegen aan uw bedrijf. Neem gerust contact op.</p>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Graag bespreek ik met u hoe ik waarde kan toevoegen aan uw bedrijf. Neem gerust contact op.
+          </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
@@ -94,7 +95,12 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center space-x-4">
                   <i className="fa fa-globe text-blue-600 text-xl w-6"></i>
-                  <a href="https://www.lannie.be" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 cursor-pointer">
+                  <a
+                    href="https://www.lannie.be"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800 cursor-pointer"
+                  >
                     www.lannie.be
                   </a>
                 </div>
