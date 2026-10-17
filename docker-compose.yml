@@ -8,10 +8,8 @@ services:
     restart: unless-stopped
     ports:
       - "3002:80"
-    environment:
-      - NODE_OPTIONS=--max-old-space-size=480
     deploy:
       resources:
         limits:
-          cpus: "0.5"
-          memory: 512M
+          cpus: "0.25"
+          memory: 64M
